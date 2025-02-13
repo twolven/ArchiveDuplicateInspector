@@ -40,14 +40,27 @@ By performing in-memory comparisons before extraction, the tool significantly re
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/archive-inspector.git
-cd archive-inspector
+git clone https://github.com/yourusername/ArchiveDuplicateInspector.git
+cd ArchiveDuplicateInspector
 ```
 
 2. Install required package:
 ```bash
 pip install tqdm
 ```
+
+3. If you're on Linux and don't have tkinter:
+```bash
+# For Debian/Ubuntu:
+sudo apt-get install python3-tk
+
+# For Fedora:
+sudo dnf install python3-tkinter
+
+# For Arch Linux:
+sudo pacman -S tk
+```
+
 
 ## Usage
 
